@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Clinical Trails</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script>
+        fetch("./header.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("header-content").innerHTML = data;
+            })
+            .catch((error) => console.error("Error loading header:", error));
+
+        fetch("../footer/footer.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("footer-content").innerHTML = data;
+            })
+            .catch((error) => console.error("Error loading footer:", error));
+
+    </script>
+    <style>
+        #navItem-clinical {
+            color: #235951;
+            font-family: "Noto Sans", sans-serif;
+            font-weight: 900;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 100px;
+            left: 0px;
+        }
+
+        .trails {
+            background-color: #f0f0f0;
+            padding: 10%;
+            margin: 20px 0;
+            border-radius: 8px;
+
+        }
+
+        .phase-text {
+            font-size: 22px;
+            font-family: "Noto Sans", sans-serif;
+            color: #081f3e;
+            font-weight: 800;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="medilife-load"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <div id="header-content"></div>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Breadcumb Area Start ***** -->
+    <section class="breadcumb-area bg-img gradient-background-overlay"
+        style="background-image: url(img/bg-img/breadcumb2.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h3 class="breadcumb-title">Clinical Trials</h3>
+                        <p>Advancing Healthcare, Ensuring Safe & Effective Medical Innovations Through Clinical Trials.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Breadcumb Area End ***** -->
+    <section class="pt-5">
+        <div class="container text-center fw-bold">
+            <p><strong>Clinical trials are research studies that test new medical treatments, drugs, devices, or
+                    procedures in people to evaluate their safety, effectiveness, and potential side effects.
+                    They play a crucial role in advancing healthcare by providing evidence about how well
+                    interventions work and whether they are safe to use in the general population.</strong></p>
+        </div>
+    </section>
+    <!-- ***** Blog Area Start ***** -->
+    <section class="medilife-blog-area section-padding-100">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid sticky"
+                        src="https://i.pinimg.com/736x/8f/48/01/8f4801434193a7f0746add6e01e5f3f2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2>Phases of Clinical Trials</h2>
+                    <ul>
+                        <li class="trails"><strong class="phase-text">Phase 1</strong>
+                            <p> Focuses on safety and dosage. A small group of healthy
+                                volunteers (20-100) is given the treatment to assess its safety, determine a
+                                safe dosage range, and identify any side effects.</p>
+                        </li>
+                        <li class="trails"><strong class="phase-text">Phase 2</strong>
+                            <p>Tests effectiveness and further evaluates safety. A larger group
+                                (100-300 people) who have the condition being treated participates to see
+                                if the treatment works and how well it works.</p>
+                        </li>
+                        <li class="trails"><strong class="phase-text">Phase 3</strong>
+                            <p>Compares the new treatment to existing treatments (or a
+                                placebo). This phase involves a large group (1,000-3,000 people) and
+                                provides more comprehensive data on effectiveness, benefits, and side
+                                effects.</p>
+                        </li>
+                        <li class="trails"><strong class="phase-text">Phase 4</strong>
+                            <p> Happens after the treatment has been approved and marketed.
+                                It monitors long-term effects, effectiveness, and any rare side effects over
+                                time.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Blog Area End ***** -->
+    <section>
+        <div class="container">
+            
+            <div class="row">
+                <div class="col">
+                    <h2>Types of Clinical Trials:</h2>
+                    <ul>
+                        <li class="trails"><strong class="phase-text">Observational Trials</strong>
+                            <p>Researchers observe participants without providing a
+                                specific intervention to understand the effects of a condition or behavior</p>
+                        </li>
+                        <li class="trails">
+                            <strong class="phase-text">Interventional Trials</strong>
+                            <p>Participants receive the treatment or intervention
+                                being tested.</p>
+                        </li>
+                        <li class="trails">
+                            <strong class="phase-text">Informed Consent</strong>
+                            <p>Before joining a clinical trial, participants must give
+                                informed consent, meaning they are fully educated about the trial’s purpose, procedures,
+                                risks, and benefits.</p>
+                        </li>
+                        <li class="trails">
+                            <strong class="phase-text">Randomization and Blinding</strong>
+                            <p>Many trials use random assignment to groups
+                                (treatment vs. placebo or standard care) and blinding (where participants or researchers
+                                do
+                                not know which group participants are in) to eliminate bias.</p>
+                        </li>
+                        <li class="trails"><strong class="phase-text">Regulation and Oversight</strong>
+                            <p>Clinical trials are closely monitored by regulatory
+                                bodies (like the FDA in the U.S.) and ethics committees to ensure the safety of
+                                participants
+                                and the integrity of the data collected.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img class="img-fluid sticky" src="https://i.pinimg.com/736x/dc/c5/ce/dcc5cebd9b4e7f75bdffd4ea355355a0.jpg" alt="">
+                </div>
+            </div>
+
+
+
+
+
+    </section>
+
+
+
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area section-padding-100">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="footer-logo">
+                                <img src="./img/core-img/Xphase_Research-Logos/Footer Logo-Xphase.jpg" alt="">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet,
+                                consectetuer.</p>
+                            <div class="footer-social-info">
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="widget-title">
+                                <h6>Latest News</h6>
+                            </div>
+                            <div class="widget-blog-post">
+                                <!-- Single Blog Post -->
+                                <div class="widget-single-blog-post d-flex">
+                                    <div class="widget-post-thumbnail">
+                                        <img src="img/blog-img/ln1.jpg" alt="">
+                                    </div>
+                                    <div class="widget-post-content">
+                                        <a href="#">Better Health Care</a>
+                                        <p>Dec 02, 2017</p>
+                                    </div>
+                                </div>
+                                <!-- Single Blog Post -->
+                                <div class="widget-single-blog-post d-flex">
+                                    <div class="widget-post-thumbnail">
+                                        <img src="img/blog-img/ln2.jpg" alt="">
+                                    </div>
+                                    <div class="widget-post-content">
+                                        <a href="#">A new drug is tested</a>
+                                        <p>Dec 02, 2017</p>
+                                    </div>
+                                </div>
+                                <!-- Single Blog Post -->
+                                <div class="widget-single-blog-post d-flex">
+                                    <div class="widget-post-thumbnail">
+                                        <img src="img/blog-img/ln3.jpg" alt="">
+                                    </div>
+                                    <div class="widget-post-content">
+                                        <a href="#">Health department advice</a>
+                                        <p>Dec 02, 2017</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="widget-title">
+                                <h6>Contact Form</h6>
+                            </div>
+                            <div class="footer-contact-form">
+                                <form action="#" method="post">
+                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0"
+                                        name="footer-name" id="footer-name" placeholder="Name">
+                                    <input type="email" class="form-control border-top-0 border-right-0 border-left-0"
+                                        name="footer-email" id="footer-email" placeholder="Email">
+                                    <textarea name="message"
+                                        class="form-control border-top-0 border-right-0 border-left-0"
+                                        id="footerMessage" placeholder="Message"></textarea>
+                                    <button type="submit" class="btn medilife-btn">Contact Us <span>+</span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="widget-title">
+                                <h6>News Letter</h6>
+                            </div>
+
+                            <div class="footer-newsletter-area">
+                                <form action="#">
+                                    <input type="email" class="form-control border-0 mb-0" name="newsletterEmail"
+                                        id="newsletterEmail" placeholder="Your Email Here">
+                                    <button type="submit">Subscribe</button>
+                                </form>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor
+                                    sit amet, consectetuer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="bottom-footer-content">
+                            <p class="text-center text-md-end text-xl-start">
+                                All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>

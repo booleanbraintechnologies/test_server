@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Xphase Research</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <script>
+        fetch("./header.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("header-content").innerHTML = data;
+            })
+            .catch((error) => console.error("Error loading header:", error));
+
+        fetch("../footer/footer.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("footer-content").innerHTML = data;
+            })
+            .catch((error) => console.error("Error loading footer:", error));
+    </script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="medilife-load"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <div id="header-content"></div>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Breadcumb Area Start ***** -->
+    <section class="breadcumb-area bg-img gradient-background-overlay"
+        style="background-image: url(https://sites.calian.com/app/uploads/sites/7/2023/11/iStock-1465969458-2200x1244.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h4 class="breadcumb-title">Therapeutic Expertise</h4>
+                        <h3 class="my-3">Clinical Development</h3>
+                        <p>Expertise in navigating the regulatory landscape to obtain approvals for new treatments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Breadcumb Area End ***** -->
+
+    <!-- ***** Services Area Start ***** -->
+    <div class="medilife-services-area section-padding-100-20">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>
+                        <strong>Ophthalmology </strong></h3>
+                        <p>
+                            Ophthalmology encompasses the diagnosis and treatment of all eye diseases, including medical and surgical interventions.
+                            It involves understanding the intricate structures of the eye and their functions.
+                        </p>
+                    
+                </div>
+                <div class="col">
+                    <img src="https://www.eyeconsultants.net/wp-content/uploads/2018/05/eye-graphic-laser.jpg">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <!-- ***** Services Area End ***** -->
+
+    <section>
+        <div>
+
+        </div>
+    </section>
+
+    <section class="medilife-benefits-area section-padding-100-50">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col">
+                    <div class="section-heading">
+                        <h2>Clinical Research & Services We Offer</h2>
+                        <p class="my-3">
+                            We provide end-to-end research support for clinical trials, ensuring regulatory compliance,
+                            ethical standards, and advanced infrastructure.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./img/bg-img/image-sliders/slider-2.jpg" alt="">
+                </div>
+            </div> -->
+            <div class="row section-padding-100-50">
+                <!-- <div class="col">
+                    <img src="./img/Illustartions/" alt="">
+                    <p><strong>Clinical Operations (Clin Ops Team)</strong> ACRP-certified professionals
+                        ensuring smooth trial execution.</p>
+
+                </div>
+                <div class="col">
+                    <p><strong>Patient Recruitment & Retention</strong> Personalized strategies to enroll
+                        and retain diverse patient populations.</p>
+                </div>
+                <div class="col">
+                    <p><strong>Trial Infrastructure & Digital Solutions </strong> E-source data capture,
+                        EMR integration, and real-time tracking for seamless research.</p>
+                </div>
+                <div class="col">
+                    <p><strong>Data Safety & Integrity</strong> HIPAA-compliant security, 21 CFR Part
+                        11-compliant EHR, and encrypted databases for PHI protection.</p>
+                </div> -->
+            </div>
+
+            <!-- <div class="row align-items-center">
+                <div class="col-12 col-md-4">
+                    <div class="single-benefits-area mb-50 text-right">
+                        <div class="single-benefits-title d-flex align-items-end row-reverse">
+                            <i class="icon-teeth"></i>
+                            <h5>Safe tests</h5>
+                        </div>
+                        <p>Ipsum dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet, adip iscing.
+                        </p>
+                    </div>
+                    <div class="single-benefits-area mb-50 text-right">
+                        <div class="single-benefits-title d-flex align-items-end row-reverse">
+                            <i class="icon-hospital-bed-1"></i>
+                            <h5>Online results</h5>
+                        </div>
+                        <p>Ipsum dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet, adip iscing.
+                        </p>
+                    </div>
+                    <div class="single-benefits-area mb-50 text-right">
+                        <div class="single-benefits-title d-flex align-items-end row-reverse">
+                            <i class="icon-hospital-2"></i>
+                            <h5>Imagistic tests</h5>
+                        </div>
+                        <p>Ipsum dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet, adip iscing.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="single-benefits-thumb">
+                        <img src="img/bg-img/benefits.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="single-benefits-area mb-50">
+                        <div class="single-benefits-title d-flex align-items-end">
+                            <i class="icon-flask-1"></i>
+                            <h5>Safe tests</h5>
+                        </div>
+                        <p>Ipsum dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet, adip iscing.
+                        </p>
+                    </div>
+                    <div class="single-benefits-area mb-50">
+                        <div class="single-benefits-title d-flex align-items-end">
+                            <i class="icon-smartphone-1"></i>
+                            <h5>Online results</h5>
+                        </div>
+                        <p>Ipsum dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet, adip iscing.
+                        </p>
+                    </div>
+                    <div class="single-benefits-area mb-50">
+                        <div class="single-benefits-title d-flex align-items-end">
+                            <i class="icon-nuclear"></i>
+                            <h5>Imagistic tests</h5>
+                        </div>
+                        <p>Ipsum dolor sit amet, consectetuer adipiscing eli. Lorem ipsum dolor sit amet, adip iscing.
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- ***** CTA Area Start ***** -->
+    <div class="medilife-cta-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content">
+                        <i class="icon-smartphone"></i>
+                        <h2>For Emergency calls</h2>
+                        <h3>+12-823-611-8721</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** CTA Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area section-padding-100">
+        <!-- Main Footer Area -->`
+        <div class="main-footer-area">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="footer-logo">
+                                <img class="img-fluid" src="./img/core-img/Xphase_Research-Logos/XR-Logo Png.png"
+                                    style="width: 300px;">
+                            </div>
+                            <h4> Advancing Therapeutics through Community Healthcare.</h4>
+                            <div class="footer-social-info">
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="widget-title">
+                                <h6>Quick Links</h6>
+                                <ul>
+                                    <li>
+                                        <a href="">Physicians / Life sciences</a >
+                                    </li>
+                                    <li>
+                                        <a href="">Clinical Trials</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- <div class="footer-contact-form">
+                                <form action="#" method="post">
+                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0"
+                                        name="footer-name" id="footer-name" placeholder="Name">
+                                    <input type="email" class="form-control border-top-0 border-right-0 border-left-0"
+                                        name="footer-email" id="footer-email" placeholder="Email">
+                                    <textarea name="message"
+                                        class="form-control border-top-0 border-right-0 border-left-0"
+                                        id="footerMessage" placeholder="Message"></textarea>
+                                    <button type="submit" class="btn medilife-btn">Contact Us <span>+</span></button>
+                                </form>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="widget-title">
+                                <h6>News Letter</h6>
+                            </div>
+
+                            <div class="footer-newsletter-area">
+                                <form action="#">
+                                    <input type="email" class="form-control border-0 mb-0" name="newsletterEmail"
+                                        id="newsletterEmail" placeholder="Your Email Here">
+                                    <button type="submit">Subscribe</button>
+                                </form>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor
+                                    sit amet, consectetuer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area">
+            <div class="container-fluid">/
+                <div class="row">
+                    <div class="col-12">
+                        <div class="bottom-footer-content">
+                            <!-- Copywrite Text -->
+                            <p class="text-center text-md-end text-xl-start">
+                                All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
